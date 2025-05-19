@@ -4,7 +4,7 @@ int main (){
     int x;
     x = 10;
     if(x == 10){
-        // int x; //Esta x oculta a la x externa
+        int x; //Esta x oculta a la x externa
         x = 99;
         printf("x interna: %d\n", x);
     }
