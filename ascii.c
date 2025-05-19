@@ -4,7 +4,7 @@ int main(){
 	char c;
 	for (x=32; x<=255; x++){
 		c=x;
-		printf("%d...%c\n",x,c);
+		printf("%d...%c\t",x,c);
 	}
 	return(0);
 }

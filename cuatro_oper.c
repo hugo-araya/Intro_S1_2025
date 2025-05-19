@@ -16,6 +16,6 @@ int main(){
 		resul = prim * seg;	 
 	if(oper == '/')	 
 		resul = prim / seg; 
-	printf("\nEl resultado de la operacion %d %c %d es %d", prim, oper, seg, resul);
+	printf("\nEl resultado de la operacion %d %c %d es %d\n", prim, oper, seg, resul);
 	return 0;
 }
