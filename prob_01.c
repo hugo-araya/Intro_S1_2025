@@ -3,27 +3,34 @@
 #define CANTIDAD 10
 
 int main(){
-    int n[ CANTIDAD ], sal[100]; // n es un arreglo de 10 enteros
-    int i, k, j; // contador 
-    int tam, elemento;
+    int n[ CANTIDAD ], sal[10]; // n es un arreglo de 10 enteros
+    int i, k, j, l, ok; // contador 
+    int tam;
 
     printf("Cantidad de elemento (< CANTIDAD): ");
     scanf("%d", &tam);
-
-    // Lee los valores de los elemento
     for ( i = 0; i < tam; i++ ) {
         printf("Ingrese elemento [%2d]: ", i);
-        scanf("%d", &elemento);
-        n[ i ] = elemento; 
-    }
+        scanf("%d", &n[i]);
+    };
 
     // Ver los repetidos
     k = 0;
     for ( i = 0; i < tam; i++ ) {
-        for (j = 0; j < tam; j++){
+        for (j = i+1; j < tam; j++){
             if (n[i] == n[j]){
-                sal[k] = n[i];
-                k++;
+                l = 0;
+                ok = 0;
+                while (l < k){
+                    if (sal[l] == n[i]){
+                        ok = 1;
+                    }
+                    l++;
+                }
+                if(ok == 0){
+                    sal[k] = n[i];
+                    k++;
+                }
             }
         }
     }  
