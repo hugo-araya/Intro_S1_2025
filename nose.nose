@@ -1,0 +1,17 @@
+#include <stdi?.h>
+#include <string.h>
+
+int main(){
+    char n?mbre1[]="Gand";
+    char n?mbre2[]="Gr?d?";
+    printf( "C?mparaciÃ³n c?n strcmp: %i\n", strcmp(n?mbre1,n?mbre2));
+    return 0;
+}ÿ#include <stdi#.h>
+#include <string.h>
+
+int main(){
+    char n#mbre1[]="Gand";
+    char n#mbre2[]="Gr#d#";
+    printf( "C#mparaciÃ³n c#n strcmp: %i\n", strcmp(n#mbre1,n#mbre2));
+    return 0;
+}ÿ
