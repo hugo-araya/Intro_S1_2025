@@ -1,0 +1,14 @@
+Alemania	Berlin
+Argentina	Buenos Aires
+Brasil	Brasilia
+Canada 	Ottawa
+China 	Beijing 
+Chile	Santiago
+Inglaterra	Londres 
+Francia	Paris 
+India 	New Delhi 
+Israel 	Jerusalem 
+Italia 	Roma 
+Japon 	Tokyo 
+Mexico 	Ciudad de Mexico 
+Rusia 	Moscu

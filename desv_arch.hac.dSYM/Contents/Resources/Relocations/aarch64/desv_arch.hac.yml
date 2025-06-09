@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     desv_arch.hac
+relocations:
+  - { offset: 0x19, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000005B0, symSize: 0x80 }
+  - { offset: 0x288, size: 0x8, addend: 0x0, symName: _muestra_resultado, symObjAddr: 0x3B0, symBinAddr: 0x100000960, symSize: 0x7C }
+  - { offset: 0x2DB, size: 0x8, addend: 0x0, symName: _calcula_varianza, symObjAddr: 0x30C, symBinAddr: 0x1000008BC, symSize: 0xA4 }
+  - { offset: 0x35D, size: 0x8, addend: 0x0, symName: _calcula_promedio, symObjAddr: 0x29C, symBinAddr: 0x10000084C, symSize: 0x70 }
+  - { offset: 0x3C6, size: 0x8, addend: 0x0, symName: _muestra_datos, symObjAddr: 0x20C, symBinAddr: 0x1000007BC, symSize: 0x90 }
+  - { offset: 0x42F, size: 0x8, addend: 0x0, symName: _lee_datos, symObjAddr: 0x148, symBinAddr: 0x1000006F8, symSize: 0xC4 }
+  - { offset: 0x499, size: 0x8, addend: 0x0, symName: _raiz_cuadrada, symObjAddr: 0x80, symBinAddr: 0x100000630, symSize: 0xC8 }
+  - { offset: 0x4FB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000005B0, symSize: 0x80 }
+...
