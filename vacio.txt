@@ -1,0 +1,7 @@
+Copiar la direccion del repositorio en GitHub
+En mi computador
+    Crear una carpeta y en ella digitar:
+        git clone "la direccion copiada"
+        esto crea un clon del reposototrio en su computador
+    Para actializar el repositorio digitar:
+        git pull

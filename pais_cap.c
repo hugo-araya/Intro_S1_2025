@@ -17,7 +17,7 @@ int main(){
     fgets(nacion, 10, stdin);
     for (i = 0; i < strlen(nacion); i++){
         if (nacion[i] != '\n'){
-            nacion1[i] = nacion[i];
+            nacion[i] = '\0';
         }
     }
     printf("%s %d\n", nacion, strlen(nacion));
